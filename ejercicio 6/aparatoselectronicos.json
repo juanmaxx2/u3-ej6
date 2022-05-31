@@ -1,0 +1,87 @@
+{
+    "__ckass__":"Manejador",
+    "Aparatos":[
+        {
+            "__class__":"Heladera",
+            "__atributos__":{
+                "Marca":"VONDOM",
+                "Modelo":"SBS566",
+                "Color":"Negro",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"360000",
+                "CapacidadenLitros":"350",
+                "Freezer":"Verdadero",
+                "Ciclica":"Verdadero"
+            }
+        },
+        {
+            "__class__":"Heladera",
+            "__atributos__":{
+                "Marca":"Patrick",
+                "Modelo":"HPK151M11",
+                "Color":"Negro",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"120000",
+                "CapacidadenLitros":"264",
+                "Freezer":"Verdadero",
+                "Ciclica":"Falso"
+            }
+        },
+        {
+            "__class__":"Televisor",
+            "__atributos__":{
+                "Marca":"Samnsung",
+                "Modelo":"F24T35",
+                "Color":"Gris oscuro",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"40500",
+                "TipodePantalla":"led",
+                "Pulgadas":"24",
+                "TipodeDefinición":"FULL HD",
+                "ConexiónaInternet":"Falso"
+            }
+        },
+        {
+            "__class__":"Televisor",
+            "__atributos__":{
+                "Marca":"Noblex",
+                "Modelo":"Dk55x6500",
+                "Color":"Negro",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"81000",
+                "TipodePantalla":"led",
+                "Pulgadas":"55",
+                "TipodeDefinición":"FULL HD",
+                "ConexiónaInternet":"Verdadero"
+            }
+        },
+        {
+            "__class__":"Lavarropa",
+            "__atributos__":{
+                "Marca":"Drean Next",
+                "Modelo":"6.06 ECO",
+                "Color":"Blanco",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"63000",
+                "CapacidaddeLavado":"6",
+                "VelocidaddeCentrifugado":"600",
+                "CantidaddeProgramas":"29",
+                "TipodeCarga":"Frontal"
+            }
+        },
+        {
+            "__class__":"Lavarropa",
+            "__atributos__":{
+                "Marca":"Samsung",
+                "Modelo":"WW90J5410G ",
+                "Color":"Blanco",
+                "PaísdeFabricación":"Argentina",
+                "PrecioBase":"130000",
+                "CapacidaddeLavado":"9",
+                "VelocidaddeCentrifugado":"1400",
+                "CantidaddeProgramas":"11",
+                "TipodeCarga":"Frontal"
+            }
+        }
+    ]
+}
