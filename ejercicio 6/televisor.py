@@ -2,14 +2,14 @@ from aparatosElectronicos import AparatosElectronicos
 class Televisor(AparatosElectronicos):
     __TipodePantalla=None
     __Pulgadas=None
-    __TipodeDefinición=None
+    __TipodeDefinicion=None
     __ConexionaInternet=None
 
-    def __init__(self,Marca,Modelo,Color,PaisdeFabricacion,PrecioBase,TipodePantalla,Pulgadas,TipodeDefinición,ConexionaInternet):
+    def __init__(self,Marca,Modelo,Color,PaisdeFabricacion,PrecioBase,TipodePantalla,Pulgadas,TipodeDefinicion,ConexionaInternet):
         super.__init__(Marca,Modelo,Color,PaisdeFabricacion,PrecioBase)
         self.__TipodePantalla=TipodePantalla
         self.__Pulgadas=Pulgadas
-        self.__TipodeDefinición=TipodeDefinición
+        self.__TipodeDefinicion=TipodeDefinicion
         self.__ConexionaInternet=ConexionaInternet
     
     def getTipodePantalla(self):
@@ -19,7 +19,7 @@ class Televisor(AparatosElectronicos):
         return self.__Pulgadas
     
     def getTipodeDefinicion(self):
-        return self.__TipodeDefinición
+        return self.__TipodeDefinicion
     
     def getConexionInternet(self):
         return self.__ConexionaInternet

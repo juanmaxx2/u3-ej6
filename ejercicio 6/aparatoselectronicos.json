@@ -20,7 +20,7 @@
                 "Marca":"Patrick",
                 "Modelo":"HPK151M11",
                 "Color":"Negro",
-                "PaísdeFabricación":"Argentina",
+                "PaisdeFabricacion":"Argentina",
                 "PrecioBase":"120000",
                 "CapacidadenLitros":"264",
                 "Freezer":"Verdadero",
@@ -33,12 +33,12 @@
                 "Marca":"Samnsung",
                 "Modelo":"F24T35",
                 "Color":"Gris oscuro",
-                "PaísdeFabricación":"Argentina",
+                "PaisdeFabricacion":"Argentina",
                 "PrecioBase":"40500",
                 "TipodePantalla":"led",
                 "Pulgadas":"24",
-                "TipodeDefinición":"FULL HD",
-                "ConexiónaInternet":"Falso"
+                "TipodeDefinicion":"FULL HD",
+                "ConexionaInternet":"Falso"
             }
         },
         {
@@ -47,12 +47,12 @@
                 "Marca":"Noblex",
                 "Modelo":"Dk55x6500",
                 "Color":"Negro",
-                "PaísdeFabricación":"Argentina",
+                "PaisdeFabricacion":"Argentina",
                 "PrecioBase":"81000",
                 "TipodePantalla":"led",
                 "Pulgadas":"55",
-                "TipodeDefinición":"FULL HD",
-                "ConexiónaInternet":"Verdadero"
+                "TipodeDefinicion":"FULL HD",
+                "ConexionaInternet":"Verdadero"
             }
         },
         {
@@ -61,7 +61,7 @@
                 "Marca":"Drean Next",
                 "Modelo":"6.06 ECO",
                 "Color":"Blanco",
-                "PaísdeFabricación":"Argentina",
+                "PaisdeFabricacion":"Argentina",
                 "PrecioBase":"63000",
                 "CapacidaddeLavado":"6",
                 "VelocidaddeCentrifugado":"600",
@@ -75,7 +75,7 @@
                 "Marca":"Samsung",
                 "Modelo":"WW90J5410G ",
                 "Color":"Blanco",
-                "PaísdeFabricación":"Argentina",
+                "PaisdeFabricacion":"Argentina",
                 "PrecioBase":"130000",
                 "CapacidaddeLavado":"9",
                 "VelocidaddeCentrifugado":"1400",

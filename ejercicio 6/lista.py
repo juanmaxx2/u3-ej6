@@ -18,13 +18,13 @@ class Lista:
 
     def __next__(self):
         if self.__indice==self.__Tope:
-            self.__actual=self.__Comienzo
-            self.__indice=0
+            self.__Actual=self.__Comienzo
+            self.__Indice=0
             raise StopIteration
         else:
-            self.__indice+=1
-            dato = self.__actual.getDato()
-            self.__actual=self.__actual.getSiguiente()
+            self.__Indice+=1
+            dato = self.__Actual.getDato()
+            self.__Actual=self.__Actual.getSiguiente()
             return dato
 
     def AgregarAparatoElectronico(self,AparatoElectronico):
@@ -77,10 +77,10 @@ class Lista:
         aux=self.__Comienzo
         i=0 
         encontrar=True
-        if pos>0 and pos<=self.__Tope:
+        if pos>0 and pos<=self.__Tope and encontrar==False:
             if i==pos-1:
                 dato=aux.getDato()
-                encontrar=True
+                encontrar=False
             else:
                 aux.getSiguiente()
                 i+=1

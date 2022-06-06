@@ -6,31 +6,26 @@ class Menu:
 
     def Iniciar(self,unManejador,encoder):
         while self.__opcion!='8':
-            print('\n0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0')
-            print('|                                                                                      |')
-            print('0                                                                                      0')
-            print('|     1.Agregar un aparato electronico en una posicion determinada.                    |')
-            print('|     2.Agregar un aparato electronico.                                                |')
-            print('|     3.Buscar un tipo de aparato electronico en una posicion.                         |')
-            print('|     4.Mostrar cantidad aparatos que sean marca philips                               |')
-            print('|     5.Mostrar marca de lavarropas con carga superior                                 |')
-            print('|     6.Mostrar los datos de todos los aparatos electronicos                           |')
-            print('|     7.Mostrar los datos de todos los aparatos electronicos                           |')
-            print('|     8.Salir                                                                          |')
-            print('0                                                                                      0')
-            print('|                                                                                      |')
-            print('0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0 \n')
+            print('1.Agregar un aparato electronico en una posicion determinada.')
+            print('2.Agregar un aparato electronico.')
+            print('3.Buscar un tipo de aparato electronico en una posicion.')
+            print('4.Mostrar cantidad aparatos que sean marca philips.')
+            print('5.Mostrar marca de lavarropas con carga superior.')
+            print('6.Mostrar los datos de todos los aparatos electronicos.')
+            print('7.Mostrar los datos de todos los aparatos electronicos.')
+            print('8.Salir')
             self.__opcion=input('\nIngrese la opcion a realizar:')
             if int(self.__opcion)>0 and int(self.__opcion)<=8:
                 if self.__opcion=='1':
-                    pos=input('Ingrese la posicion donde desea agregar el aparato electronico:')
+                    pos=int(input('Ingrese la posicion donde desea agregar el aparato electronico:'))
                     aparato=unManejador.Iniciar()
                     unManejador.InsetarAparato(aparato,pos)
                 elif self.__opcion=='2':
                     aparato=unManejador.Iniciar()
                     unManejador.AgregarAparato(aparato)
                 elif self.__opcion=='3':
-                    pos=input('Ingrese la posicion que desea mostrar:')
+                    pos=int(input('Ingrese la posicion que desea mostrar:'))
+                    print(type(unManejador))
                     unManejador.MostrarTipo(pos)
                 elif self.__opcion=='4':
                     unManejador.CantidadPhillips()
@@ -40,6 +35,6 @@ class Menu:
                     unManejador.Mostrar()
                 elif self.__opcion=='7':
                     listaJSON = unManejador.guardarJSON()
-                    encoder.guardarJSONArchivo(listaJSON, 'Aparato.json')
+                    encoder.guardarJSONArchivo(listaJSON,'Aparato.json')
                     print('Archivo guardado')
             else:print('Opcion incorrecta')
